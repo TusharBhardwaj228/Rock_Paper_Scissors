@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rock-Paper-Scissors</title>
+  <link rel="stylesheet" href="10_style.css">
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+
+  <button class="js-rock css-button" onclick="userGuess('rock');"><img src="Tenth_images/rock-emoji.png" alt="rock-img"></button>
+  <button class="js-paper css-button" onclick="userGuess('paper');"><img src="Tenth_images/paper-emoji.png" alt="paper-img"></button>
+  <button class="js-scissors css-button" onclick="userGuess('scissors');"><img src="Tenth_images/scissors-emoji.png" alt="scissor-img"></button>
+
+  <p class="js-result css-result"></p>
+  <p class="js-choices css-choice"></p>
+  <p class="js-score">Win: 0, Losses: 0, Ties: 0</p>
+
+  <button class="js-reset css-reset" onclick="userGuess('reset');">Reset Score</button>
+  <script src="10_Rock_paper_scissors.js">
+  </script>
+</body>
+</html>
